@@ -1,0 +1,59 @@
+#topbox{
+    width:auto;
+    height:75px;
+    position:absolute;
+    left:0px;top:0px;right:0px;
+    background-color: rgb(238, 206, 167);
+}
+#topend{
+    width:auto;
+    height:30px;
+    position: absolute;
+    top:75px;left:0px;right:0px;
+    background-color: rgb(231, 158, 221);
+}
+#bottombox{
+    width:auto;
+    height:30px;
+    position:absolute;
+    left:0px;right:0px;top:595px;
+    background-color: black;
+}
+
+#calbox{
+    width:245px;
+    height:345px;
+    margin-top:175px;
+    margin-left:100px;
+    border:2px solid;
+    border-radius:2px;
+    box-shadow: 2px 2px 3px;
+}
+#calsc{
+    width:225px;
+    height:50px;
+    margin-top:10px;
+    margin-left:6px;
+    border:2px solid;
+}
+.btn{
+    font-weight:bold;
+    padding:20px; 
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size:275%;
+    margin-top:10px;;
+}
+
+.para{
+    color: white;
+    text-align:center;
+    line-height: 0%;
+}
+
+#calsc{
+    font-size:30px;
+}
