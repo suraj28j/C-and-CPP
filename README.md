@@ -1,8 +1,6 @@
-# Complete Authenticate API
-this project is base on CRUD APIs
+# C Langauge Notes & Projects
 
-# Simple Calculator
-this is simple calculator   
-HTML | CSS | JavaScript
+## Projects
 
+- Student Record System
 
