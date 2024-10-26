@@ -3,17 +3,17 @@
 
 int main()
 {
-    int n1,n2;
+    int num1,num2;
     printf("Enter 1st Number :- ");
-    scanf("%d",&n1);
+    scanf("%d",&num1);
     printf("Enter 2nd Number :- ");
-    scanf("%d",&n2);
-    while(n2!=0)
+    scanf("%d",&num2);
+    while(num2!=0)
     {
-        n1++;
-        n2--;
+        num1++;
+        num2--;
     }
-    printf("Sum of These Numbers are %d",n1);
+    printf("Sum of These Numbers is %d",nun1);
     getch();
     return 0;
 }
