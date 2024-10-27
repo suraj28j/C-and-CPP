@@ -8,4 +8,5 @@
 
 - Add Two Numbers
 - Add Two Numbers - Different Way (1) 
-- Avrage of n Numbers
+- Average of n Numbers
+- Srting Length
