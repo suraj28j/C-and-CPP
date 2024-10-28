@@ -7,6 +7,8 @@
 ## My Practice
 
 - Add Two Numbers
-- Add Two Numbers - Different Way (1) 
+- Add Two Numbers - Different Way 
 - Average of n Numbers
 - Srting Length
+- Swap Two Numbers
+- Swap Without 3rd Variable
