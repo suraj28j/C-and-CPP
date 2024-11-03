@@ -19,7 +19,7 @@ struct student{
 };
 
 void main(){
-    //loading();
+    loading();
     system("cls");
 
     int s;
