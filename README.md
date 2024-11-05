@@ -14,3 +14,4 @@
 - Swap Without 3rd Variable
 - HCF of Two Numbers
 - LCM of Two Numbers
+- Prime Numbers
