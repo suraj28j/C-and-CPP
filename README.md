@@ -14,3 +14,4 @@
 - LCM of Two Numbers
 - Prime Numbers
 - Input Integer Only
+- Decimal to Binary
