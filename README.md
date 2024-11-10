@@ -15,3 +15,4 @@
 - Prime Numbers
 - Input Integer Only
 - Decimal to Binary
+- Decimal to Binary (Bitwise)
