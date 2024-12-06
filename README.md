@@ -4,9 +4,7 @@
 
 - Student Record System
 
-![alt Project_screenshot](https://github.com/suraj28j/C/blob/main/Project%20Screenshot%20.png)
-
-## My Practice
+## Programs
 
 - Add Two Numbers - Different Way 
 - Swap Without 3rd Variable
