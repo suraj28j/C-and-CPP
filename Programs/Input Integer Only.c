@@ -18,9 +18,7 @@ void main()
         {
             if(ch==8)
             {
-                printf("\b");
-                printf(" ");
-                printf("\b");
+                printf("\b \b");
                 num = num/10;
             }
             else
