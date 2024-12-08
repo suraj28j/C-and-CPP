@@ -1,17 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
-#include<stdlib.h>
 
 void main()
 {
+    int num=0;
     char ch;
-    printf("Enter Number : ");
+    printf("Enter a number : ");
     while(1)
     {
         ch = getch();
-        if(47<ch && 58>ch)
+        if(ch>47 && ch<58)
         {
             printf("%c",ch);
+            num = num*10+ch-48;
         }
         else
         {
@@ -20,15 +21,16 @@ void main()
                 printf("\b");
                 printf(" ");
                 printf("\b");
+                num = num/10;
             }
             else
             {
-                if(ch==27)
-                exit(0);
+                if(ch==13)
+                    break;
             }
         }
 
     }
+
+    printf("\nYou Enter %d",num);
 }
-
-
