@@ -60,10 +60,10 @@ int countDays(int m)
 
 void main()
 {
-    loading();
+    //loading();
     system("cls");
 
-    int s,d,m,y,initDay,yearSum,monthSum,total;
+    int d,m,y,initDay,yearSum,monthSum,total,result;
 
     while(1)
     {
@@ -88,9 +88,12 @@ void main()
         initDay = setInitDay(y);
         yearSum = countYears(y);
         monthSum = countDays(m);
-        total = (initDay+yearSum+monthSum+d)%7;
+        total = (yearSum+monthSum+d)%7;
+        result = initDay+total;
+        if(result>7)
+            result = result%7;
 
-        switch(total)
+        switch(result)
         {
         case 1:
             gotoxy(45,14);
@@ -114,12 +117,14 @@ void main()
             break;
         case 6:
             gotoxy(45,14);
-            printf("It's Friday !");
+            printf("It's Friday");
             break;
         case 7:
             gotoxy(45,14);
             printf("It's Saturday");
             break;
+        default :
+            printf("Something Wrong !");
         }
 
         gotoxy(3,16);
