@@ -3,6 +3,7 @@
 ## Projects
 
 - Student Record System
+- Day Finder
 
 ## Programs
 
