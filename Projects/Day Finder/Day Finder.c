@@ -74,7 +74,7 @@ void main()
         printf("Developed by Suraj Kumar");
 
         gotoxy(3,10);
-        printf("Enter Day (1-30) : ");
+        printf("Enter Day (1-31) : ");
         scanf("%d",&d);
 
         gotoxy(3,12);
